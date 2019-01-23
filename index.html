@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>ToDo</title>
+</head>
+
+<body>
+  <div id="app">
+    <header>
+      <nav>
+        <h1 class="h3">ShoppingList</h1>
+      </nav>
+    </header>
+    <div class="wrapper rounded d-flex justify-content-center mt-5 mx-auto px-2 px-md-0">
+      <div class="align-self-center d-md-flex w-100">
+        <div class="shopping_list_wrapper border">
+          <div class="top text-white py-1">
+            <h2 class="h4 mx-2 mb-0">ADD YOUR ITEMS HERE</h2>
+          </div>
+          <div class="shopping_list_content">
+            <div class="shopping_list">
+
+            </div>
+            <form action="">
+              <input id="newItem" class="form-control border" placeholder="Add Item" type="text">
+            </form>
+          </div>
+        </div>
+        <div class="details rounded mt-4 mt-md-0 mx-md-2 border" style="width:100%">
+          <div class="top text-white py-1">
+            <h2 class="h4 mx-2 mb-0"><span id="item_title">NO</span> DETAILS</h2>
+          </div>
+          <div class="detail_content p-2" style="display:none;">
+            <form action="">
+              <div class="form-group">
+                <label for="quantity">Quantity</label>
+                <input class="form-control" type="text" name="quantity" id="quantity">
+              </div>
+              <div class="form-group">
+                <label for="price">Price</label>
+                <input class="form-control" type="text" name="price" id="price">
+              </div>
+              <div class="form-group">
+                <label for="description">Descrption</label>
+                <textarea class="form-control" name="description" id="description" cols="30" rows="3"></textarea>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+
+    </div>
+  </div>
+
+  <body>
+    <script src="
+    https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+
+</html>

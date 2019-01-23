@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none !important;
+  border: none;
+}
+
+nav {
+  padding: 15px;
+  color: #fff;
+}
+
+.wrapper {
+  max-width: 800px;
+}
+
+input {
+  border-radius: none !important;
+}
+
+.shopping_list label {
+  cursor: pointer;
+}
+
+i {
+  cursor: pointer;
+}
+
+.shopping_list_wrapper {
+  min-width: 300px;
+  max-width: 100vw;
+}
+
+.shopping_list_content input {
+  border: none;
+}
+
+.shopping_list_content {
+  max-height: 292px;
+  overflow-y: scroll;
+}
+
+.top,
+nav {
+  background: linear-gradient(rgba(0, 229, 145, 1), rgba(47, 239, 188, 1));
+
+}
+
+.focused_item {
+  border: 2px solid #aaa;
+}
